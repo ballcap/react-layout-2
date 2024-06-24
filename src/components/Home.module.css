@@ -1,0 +1,38 @@
+.section {
+    display: flex;
+    font-size: 18px;
+}
+
+.left {
+    flex: 1;
+    background: #f52;
+    color: 272727;
+    text-align: right;
+    padding: 40px 2.5px;
+    border: solid 1px #272727;
+    border-bottom-left-radius: 4px;
+}
+
+.right {
+    flex: 1;
+    background: #272727;
+    color: #f52;
+    padding: 40px 2.5px;
+    border-bottom-right-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section { display: block; }
+
+    .left {
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    .right {
+        text-align: center;
+        font-size: 22px;
+        padding: 10px;
+    }
+}

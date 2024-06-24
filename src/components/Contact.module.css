@@ -1,0 +1,33 @@
+.section {
+    background: #efefef;
+    margin: 5px 0;
+    border: solid 1px #111;
+    border-radius: 4px;
+}
+
+.top { display: flex; }
+
+.bottom {
+    background: #fff;
+    border-top: solid 1px #ccc;
+    padding: 6px 30px;
+    font-size: 14px;
+}
+
+.divleft {
+    flex: 1 1 30%;
+    padding: 30px;
+}
+
+.divright {
+    flex: 1 1 70%;
+    padding: 30px;
+}
+
+.h1 { margin: 0; }
+
+.img { width: 100%; }
+
+@media only screen and (max-width: 600px) {
+    .top { display: block; }
+}
